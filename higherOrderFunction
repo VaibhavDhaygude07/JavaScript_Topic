@@ -1,0 +1,25 @@
+
+function add(){ 
+    let a=5;
+    let b=8;
+    const c=9;
+    console.log(a+b);
+}
+
+function method(callback){ // higher order function
+    callback();
+}
+
+method(add);
+
+
+
+
+function greet(){
+    console.log("Good Morning "); 
+}
+
+function greet1(action){ // higher order function
+    action();
+}
+console.log(greet1(greet));
