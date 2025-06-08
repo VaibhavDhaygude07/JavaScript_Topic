@@ -8,7 +8,7 @@ function greet(name, callback) {
 }
 
 
-function sayGoodMorning() {
+function sayGoodMorning() { 
     console.log("GoodMorning");
 }
 console.log(greet("Rohit", sayGoodMorning));
