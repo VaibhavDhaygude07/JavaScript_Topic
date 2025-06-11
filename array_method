@@ -43,5 +43,3 @@ console.log(evenArray); // [2, 4]
 const sum = array.reduce((result, value) => result + value, 0);
 console.log(sum); // 15
 
-
-

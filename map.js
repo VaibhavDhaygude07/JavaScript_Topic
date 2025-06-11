@@ -12,4 +12,4 @@ console.log(userNames); // ['Alice', 'Bob', 'Charlie']
 
 const numbersArray = [1, 2, 3, 4, 5];
 const squares = numbersArray.map(num => num * num);
-console.log(squares); // [1, 4, 9, 16, 25]  
+console.log(squares); // [1, 4, 9, 16, 25]      
