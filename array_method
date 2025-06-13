@@ -39,7 +39,5 @@ console.log(doubleArray); // [2, 4, 6, 8, 10]
 const evenArray = array.filter((num) => num%2==0);
 console.log(evenArray); // [2, 4]
 
-//reduce sum all the elements of the array
-const sum = array.reduce((result, value) => result + value, 0);
-console.log(sum); // 15
+
 
