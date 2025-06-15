@@ -23,3 +23,17 @@ function greet1(action){ // higher order function
     action();
 }
 console.log(greet1(greet));
+
+
+
+const numbers = [3, 6, 9, 12, 15];
+
+const doubled = numbers.map(n => n * 2);
+console.log("map ⇒", doubled);          // [6, 12, 18, 24, 30]
+
+
+const greaterThanTen = numbers.filter(n => n > 10);
+console.log("filter ⇒", greaterThanTen); // [12, 15]
+
+console.log("forEach ⇒");
+numbers.forEach(n => console.log(" ", n));
