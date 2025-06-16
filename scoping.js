@@ -10,3 +10,5 @@ function calculator(){
     console.log (add(a,b));
 }
 calculator(); 
+
+
