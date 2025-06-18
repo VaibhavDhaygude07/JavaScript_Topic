@@ -14,3 +14,4 @@ copy.push(30);
 
 console.log(original); // [10, 20]
 console.log(copy);     // [10, 20, 30]
+

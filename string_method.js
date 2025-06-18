@@ -24,3 +24,4 @@ console.log(split); // ["Good", "Morning"]
 
 let replace = string.replace("Morning", "Afternoon"); // replace "morining" with "afternoon"
 console.log(replace); // Good Afternoon
+
